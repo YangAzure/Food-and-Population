@@ -3,11 +3,12 @@ from yelp.client import Client
 from yelp.oauth1_authenticator import Oauth1Authenticator
 import io
 
+# Please go to Yelp API for a set of key
 auth = Oauth1Authenticator(
-consumer_key='kl0Qc3qVKfMGgAxIlh306g',
-consumer_secret='NfVA9QH6rPbMcOvuv8upH8BhDrg',
-token='QY_ONWjPgl3wZLbU74XNTyrAyMFdi-lF',
-token_secret='TFDGSHy4NsnCcDB5S3453F4bW5U')
+consumer_key='',
+consumer_secret='',
+token='',
+token_secret='')
 client = Client(auth)
 dicts_to_output = []
 
